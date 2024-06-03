@@ -1,0 +1,314 @@
+html {
+  font-family: Montserrat, sans-serif;
+}
+
+nav {
+  background-color: #000000;
+  overflow: visible;
+}
+
+.nav-title {
+  color: #aa0497;
+  padding: 14px 16px;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 1em;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #c4b0b0;
+}
+
+.active {
+  border-radius: 50px;
+  background-color: #aa0497;
+}
+
+h1 {
+  color: #000000;
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 4em;
+  font-family: Montserrat, sans-serif;
+}
+
+.barbie {
+  height: 180px;
+  width: 180px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #e4e4e4;
+}
+
+.contact-image {
+  height: 700px;
+  width: auto;
+  margin-right: 8%;
+}
+
+.contact-content {
+  color: rgb(0, 0, 0);
+}
+
+.about {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.img-container {
+  background-color: #000000;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img {
+  width: 30%;
+  height: auto;
+  margin: 1%;
+  display: inline-block;
+}
+.paragraph2 {
+  font-size: 1em;
+  width: 100%;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #afaaaa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-links li a {
+  color: #afaaaa;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #000000;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #aa0497;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content-outer {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: #000000;
+  min-width: 160px;
+}
+
+.dropdown-content-outer a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+}
+
+.dropdown-content-outer a:hover {
+  background-color: #aa0497;
+}
+
+.dropdown:hover .dropdown-content-outer {
+  display: block;
+}
+
+form.new-item-form {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  color: white;
+}
+
+form.new-item-form .field {
+  padding: 5%;
+  margin-top: 3px;
+}
+
+form.new-item-form label {
+  display: block;
+  font-weight: bold;
+}
+
+form.new-item-form input[type="text"],
+form.new-item-form input[type="number"],
+form.new-item-form select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form.new-item-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #aa0497;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form.new-item-form button:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.grid-x {
+  display: flex;
+  justify-content: center;
+}
+
+.col-left,
+.col-right {
+  flex: 1;
+}
+
+.pricetable__item {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.pricetable__text {
+  margin-right: 300px;
+}
+
+.terminButton {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.terminButton {
+  background-color: #000000;
+  color: white;
+  width: 10%;
+  height: auto;
+  text-align: center;
+}

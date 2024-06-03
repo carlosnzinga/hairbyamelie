@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a class="nav-title" href="./index.html">Hair By Amélie</a>
+        </li>
+
+        <li>
+          <div class="dropdown">
+            <a class="dropbtn" id="hairStylesBtn">Hair Styles</a>
+            <div class="dropdown-content" id="dropdownContent">
+              <a id="corn" href="./appointment.html">Braids</a>
+              <a href="./appointment.html">Locs</a>
+              <a href="./appointment.html">Extention</a>
+              <a href="./appointment.html">Others</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#Preise">Preise</a></li>
+        <li><a href="./index.html">Kontakt</a></li>
+        <li><a href="./appointment.html">Appointment</a></li>
+      </ul>
+    </nav>
+    <div class="dropdown-content-outer" id="dropdownContentOuter">
+      <div class="dropdown-content-inner">
+        <a id="corn" href="#">Braids</a>
+        <a href="#">Locs</a>
+        <a href="#">Extention</a>
+        <a href="#">Others</a>
+      </div>
+    </div>
+    <h1>Appointment</h1>
+
+    <form class="new-item-form">
+      <div class="field">
+        <label>Style:</label>
+        <select id="type">
+          <option value="invoice">Braids</option>
+          <option value="payment">Locs</option>
+          <option value="invoice">Extention</option>
+          <option value="payment">Others</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Name:</label>
+        <input type="text" id="tofrom" />
+      </div>
+      <div class="field">
+        <label>Date:</label>
+        <input type="datetime-local" id="details" />
+      </div>
+      <div class="field">
+        <label>Contact:</label>
+        <input type="number" id="amount" />
+      </div>
+      <button>Add</button>
+    </form>
+
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Wochentag</th>
+            <th>Öffnungszeit</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Montag</td>
+            <td>9:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Dienstag</td>
+            <td>9:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Mittwoch</td>
+            <td>9:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Donnerstag</td>
+            <td>9:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Freitag</td>
+            <td>9:00 - 18:00</td>
+          </tr>
+          <tr>
+            <td>Samstag</td>
+            <td>9:00 - 14:00</td>
+          </tr>
+          <tr>
+            <td>Sonntag</td>
+            <td>Geschlossen</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+  <script type="module" src="app.js"></script>
+</html>
